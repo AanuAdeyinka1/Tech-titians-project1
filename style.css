@@ -9,6 +9,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-top: 0px;
+margin-left: 3px;
 
 
 }
@@ -71,12 +72,12 @@ line-height: normal;
 
 
 
-* {
+/** {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
+}*/
 
 .back-img{
   background: url('1.png'), lightgray 50% / cover;
@@ -84,6 +85,9 @@ line-height: normal;
   width: 1440px;
   height: 1007.93px;
   flex-shrink: 0;
+}
+.section-1{
+  margin-left: 500px;
 }
 
 section article svg {
@@ -148,12 +152,13 @@ section article svg {
 footer {
   display: flex;
   /*flex-wrap: wrap;*/
-  justify-content:flex-start;
+  justify-content:start;
   align-items: center;
   gap: 100px;
   background-color: white;
   font-weight: 100px;
   font-size: 16px;
+  margin-left: 205px;
   
   
 }
@@ -166,6 +171,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-left: 50px;
 }
 
 .footer-help a {
