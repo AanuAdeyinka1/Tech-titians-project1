@@ -1,10 +1,6 @@
 body {
 }
-footer{
-    display: flex;
-    gap: 50px;
 
-}
 .funiro {
 color: #000;
 font-family: Poppins;
@@ -12,8 +8,15 @@ font-size: 24px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-}
+margin-top: 0px;
 
+
+}
+.funiro-address{
+   padding-top: 10px;
+   align-self: start;
+   margin-left: 300px;
+}
 .address{
 color: #9F9F9F;
 font-family: Poppins;
@@ -21,6 +24,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 .link{
 color: #9F9F9F;
@@ -62,4 +66,92 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  justify-content:flex-start;
+  align-items: center;
+  gap: 100px;
+  background-color: white;
+  font-weight: 100px;
+  font-size: 16px;
+  
+  
+}
+
+
+h6 {
+  color: grey;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.footer-help a {
+  color: #000;
+}
+
+a:first-child {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 50px;
+}
+.footer-help {
+  padding-bottom: 45px;
+}
+.footer-Newsletter,
+a {
+  padding-bottom: 150px;
+  line-height: 50px;
+  text-decoration: none;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+
+
+}
+
+.a-tag2 {
+  color: #000;
+  
+}
+
+.a-tag {
+  color: grey;
+  
+  
+  
+}
+.move {
+  position: relative;
+  top: -15px;
+  border-bottom: 1px solid black;
+}
+
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    padding: 20px 30px;
+  }
+
+  .footer-help ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
 }
