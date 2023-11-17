@@ -1,3 +1,72 @@
+body {
+}
+
+.funiro {
+color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 0px;
+
+
+}
+.funiro-address{
+   padding-top: 10px;
+   align-self: start;
+   margin-left: 300px;
+}
+.address{
+color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+.link{
+color: #9F9F9F;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.home{
+color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.shop{
+color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.about{
+color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.connect{
+color: #000;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 
 
@@ -79,16 +148,24 @@ section article svg {
 footer {
   display: flex;
   /*flex-wrap: wrap;*/
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
-  gap: 60px;
-  background-color: rgb(128, 92, 13);
+  gap: 100px;
+  background-color: white;
   font-weight: 100px;
   font-size: 16px;
+  
+  
 }
+
 
 h6 {
   color: grey;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
 
 .footer-help a {
@@ -111,14 +188,24 @@ a {
   padding-bottom: 150px;
   line-height: 50px;
   text-decoration: none;
+  font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+
+
 }
 
 .a-tag2 {
   color: #000;
+  
 }
 
 .a-tag {
   color: grey;
+  
+  
+  
 }
 .move {
   position: relative;
