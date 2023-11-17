@@ -1,4 +1,5 @@
-/body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,11 +11,16 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2rem 3rem;
-    background-color: rgb(255, 255, 255);  
+    background-color: rgb(255, 255, 255); 
+    width: 70%; 
+    margin-top: 2px;
 }
 
 .logo {
-  
+  margin-top: 150px;
+    margin-left: 50px;
+    
+    
     cursor: pointer;
 }
 .logomark {
@@ -218,31 +224,41 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
 
 
 
-/** {
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}*/
+}
 
 .back-img{
+  object-fit: cover;
   background: url('1.png'), lightgray 50% / cover;
   background-repeat: no-repeat;
   width: 1440px;
   height: 1007.93px;
   flex-shrink: 0;
+  margin-top: 3px;
 }
 .section-1{
   margin-left: 500px;
+
+}
+.section-2{
+  margin-top: 50px;
+  
 }
 
- Christiana/Part
+ 
 img {
   width: 100%;
+  
+  padding-left: 10px;
+  
 }
 
 .card {
@@ -257,6 +273,7 @@ img {
   width: 30%;
   /* border-radius: 10px;*/
   background: #fff3e3;
+  
 }
 
 section article svg {
@@ -325,10 +342,11 @@ footer {
   justify-content:start;
   align-items: center;
   gap: 100px;
-  background-color: white;
+  background-color:#B88E2F ;
   font-weight: 100px;
   font-size: 16px;
   margin-left: 205px;
+  margin-top: 100px;
   
   
 }
@@ -404,11 +422,12 @@ font-weight: 500;
 
 
 body {
-  padding: auto;
+ 
 }
 
 #text {
-  text-align: center;
+  text-align: start;
+  margin-left: 1000px;
   color: #333;
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
@@ -418,7 +437,8 @@ body {
 }
 
 #para {
-  text-align: center;
+  text-align: start;
+  margin-left: 900px;
   position: relative;
   bottom: 45px;
   color: #666;
@@ -428,13 +448,14 @@ body {
 
 .img-cont {
   width: 100%;
-  height: 400px;
+  height: auto;
   border-radius: 4px;
 }
 .container {
   display: flex;
   gap: 10px;
-  justify-content: center;
+  justify-content: start;
+  margin-left: 600px;
 }
 .container-2{
     display: none;
@@ -486,14 +507,14 @@ body {
   }
 }
 @media (max-width: 991px) {
-  /* .container-2 {
+  .container-2 {
     width: 90%;
     justify-content: center;
     display: none;
-  } */
-  /* .container {
+  }
+  .container {
     display: flex;
-  } */
+  } 
   .img-cont {
     width: 100%;
     height: 250px;
@@ -676,6 +697,7 @@ margin-left: 3px;
 
 
 
+
 }
 .funiro-address{
    padding-top: 10px;
@@ -690,6 +712,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 
+
 }
 .link{
   cursor: pointer;
@@ -699,6 +722,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+margin-left: 2px;
+
 }
 
 .home{
@@ -709,6 +734,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+
+
 }
   
 .shop{
@@ -745,14 +772,14 @@ line-height: normal;
 
 
 
-/** {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}*/
+}
 
-/*.back-img{
+.back-img{
   background: url('1.png'), lightgray 50% / cover;
   background-repeat: no-repeat;
   width: 1440px;
@@ -793,7 +820,7 @@ section article svg {
   font-weight: 700;
   line-height: 65px; /* 125% */}
   
-/*.lorem{
+.lorem{
   width: 546px;
   height: 52px;
   flex-shrink: 0;
@@ -804,7 +831,7 @@ section article svg {
   font-weight: 500;
   line-height: 24px; /* 133.333% */
 }
-/*.retangle{
+.retangle{
   display: inline-flex;
   padding: 25px 72px;
   align-items: flex-start;
@@ -849,6 +876,7 @@ margin-left: 50px;
 
 .footer-help a {
   color: #000;
+  margin-left: 1px;
 }
 
 a:first-child {
@@ -875,7 +903,7 @@ a {
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
-
+margin-top: 10px;
 
 }
 
