@@ -240,6 +240,25 @@ line-height: normal;
   margin-left: 500px;
 }
 
+ Christiana/Part
+img {
+  width: 100%;
+}
+
+.card {
+  box-shadow: 6px 4px 30px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 4px 30px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 4px 30px -5px rgba(0, 0, 0, 0.75);
+  position: relative;
+  top: -28rem;
+  right: -40rem;
+  padding: 40px;
+  margin-left: 50px;
+  width: 30%;
+  /* border-radius: 10px;*/
+  background: #fff3e3;
+}
+
 section article svg {
   width: 643px;
   height: 443px;
@@ -299,6 +318,7 @@ section article svg {
   line-height: normal;
   text-transform: uppercase;
 }
+
 footer {
   display: flex;
   /*flex-wrap: wrap;*/
@@ -488,7 +508,7 @@ body {
     font-weight: 600;
   }
 }
-=======
+
 /*body {
     margin: 0;
     padding: 0;
