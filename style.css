@@ -7,19 +7,23 @@
   font-family: "Poppins", sans-serif;
 }
 
-img {
+.img {
   width: 100%;
+  background-image: url(BackgroundImg.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
 }
 
 .card {
   box-shadow: 6px 4px 30px -5px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 6px 4px 30px -5px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 6px 4px 30px -5px rgba(0, 0, 0, 0.75);
-  position: relative;
-  top: -28rem;
-  right: -40rem;
+  position: absolute;
+  top: 200px;
+  right: 250px;
   padding: 40px;
-  margin-left: 50px;
   width: 30%;
   /* border-radius: 10px;*/
   background: #fff3e3;
@@ -27,7 +31,6 @@ img {
 
 footer {
   display: flex;
-  /*flex-wrap: wrap;*/
   justify-content: center;
   align-items: center;
   gap: 60px;
@@ -55,10 +58,12 @@ ul {
 .footer-help {
   padding-bottom: 45px;
 }
-.footer-Newsletter,
-a {
+.footer-Newsletter {
   padding-bottom: 150px;
   line-height: 50px;
+}
+
+a {
   text-decoration: none;
 }
 
